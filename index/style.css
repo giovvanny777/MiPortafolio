@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 50rem;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0f0f10;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(to left, goldenrod, #0f0f10 22%);
+}
+
+.nav li {
+    display: inline-block;
+    padding: 65px;
+}
+
+.nav a {
+    list-style: none;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav li:hover {
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.nav li a:hover {
+    color: teal;
+}
+
+.foto img {
+    border-radius: 100%;
+    width: 40%;
+    border: 5px solid teal;
+    margin: 1rem;
+    cursor: default;
+    transition: all 0.5s;
+}
+
+.foto img:hover {
+    transform: scale(1.1);
+}
+
+main {
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.presentacion {
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    color: white;
+    font-size: 20px;
+}
+
+.parrafo {
+    position: absolute;
+    left: 45%;
+    right: 5%;
+    top: 60%;
+    text-align: justify;
+    font-size: 16px;
+    color: white;
+}
+
+.marco {
+    position: absolute;
+    border: 5px solid teal;
+    width: 160px;
+    height: 180px;
+    border-radius: 10%;
+    left: 15%;
+    top: 65%
+}
+
+#avatar {
+    position: absolute;
+    border: 5px solid goldenrod;
+    border-radius: 10%;
+    left: 20%;
+    top: 60%;
+}
+
+.cv {
+    position: absolute;
+    left: 20%;
+    top: 95.5%;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 5%; 
+    top: 70%;
+    background-color: #0f0f10;
+}
+
+.logos {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 10%;
+}
+
+.gracias {
+    position: absolute;
+    color: white;
+    top: 90%;
+    right: 44%;
+}

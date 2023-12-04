@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es" class="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/contactame/contactame.css">
+    <script type="text/javascript" src="/contactame/formulario.js"></script>
+    <title>Portafolio Bryan Rodriguez</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a href="/index/index.html">Inicio</a></li>
+                <li><a href="/conocimientos/conocimientos.html">Conocimientos</a></li>
+                <li><a href="/portafolio/portafolio.html">Proyectos</a></li>
+                <li><a href="#Contactame.html" style="text-decoration: underline teal">Contactame</a></li>
+            </ul>
+        </nav>
+        <div class="foto">
+            <img src="/index/foto.jfif" alt="foto de Bryan">
+        </div>
+    </header>
+
+    <main>
+        <div class="enunciado">
+            <h1>¡TRABAJEMOS JUNTOS!</h1>
+            <P>Dejame tus datos y escribeme en que proyecto quieres que trabajemos</P>
+        </div>
+        <div class="whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=573115724355" title="whatsapp" target="_blank"><img
+                    src="/contactame/whastapp.png" alt="icono de whastapp" width="80" height="65"></a>
+            <a id="numero" href="https://api.whatsapp.com/send?phone=573115724355" title="whatsapp" target="_blank">+57
+                311 572 4355</a>
+        </div>
+        <div class="correo" id="mailto">
+            <a href="mailto: bragi.77@hotmail.com" title="correo" target="_blank"><img src="/contactame/correo.png"
+                    alt="logo correo" width="45" height="45"></a>
+            <a id="email" href="mailto: bragi.77@hotmail.com" title="correo" target="_blank">bragi.77@hotmail.com</a>
+        </div>
+        <div class="ubicacion">
+            <a href="https://maps.app.goo.gl/6btWb6W4h917ntwg9" title="Ubicación" target="_blank"><img
+                    src="/contactame/ubicacion.png" alt="logo ubicacion" width="40" height="40"></a>
+            <a id="pereira" href="https://maps.app.goo.gl/6btWb6W4h917ntwg9" title="ubicacion"
+                target="_blank">Pereira-Colombia</a>
+        </div>
+        <section>
+            <div class="contact_form">
+                <div class="formulario">
+                    <h1>Deja tus datos aqui</h1>
+                    <h3>En breve me pondre en contacto contigo</h3>
+                    <form name="formulario de contacto" netlify>
+                        <p>
+                            <label for="nombre" class="colocar_nombre">Nombre Completo
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                                placeholder="Escribe tu nombre">
+                        </p>
+                        <p>
+                            <label for="email_form" class="colocar_email">Email
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="email" name="introducir_email" id="email_form" required="obligatorio"
+                                placeholder="Escribe tu Email">
+                        </p>
+                        <p>
+                            <label for="telefono" class="colocar_telefono">Teléfono
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="tel" name="introducir_telefono" id="telefono"
+                                placeholder="Escribe tu teléfono">
+                        </p>
+                        <p>
+                            <label for="mensaje" class="colocar_mensaje">Tu proyecto
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
+                                required="obligatorio" placeholder="Dejame aquí en que proyecto quieres que trabajemos..."></textarea>
+                        </p>
+                        <button type="submit" name="enviar_formulario" id="enviar" onclick="formulario ()">
+                            <p>Enviar</p>
+                        </button>
+                        <p class="aviso">
+                            <span class="obligatorio"> * </span>los campos son obligatorios.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="logos">
+            <a class="linkedin" href="https://www.linkedin.com/in/brayan-giovvany-rodr%C3%ADguez-rosales-378276209/"
+                title="Linkedin" target="_blank" rel="nofollow">
+                <img src="/index/LinkedIn-Logo.png" alt="logo linkedin" width="40" height="40">
+            </a>
+            <a class="instagram" href="https://www.instagram.com/briam_gio7/" title="Instagram" target="_blank"
+                rel="nofollow">
+                <img src="/index/instagram-logo.webp" alt="logo instagram" width="35" height="35">
+            </a>
+            <a class="facebook" href="https://web.facebook.com/brayan.rosales.3956/" title="Facebook" target="_blank"
+                rel="nofollow">
+                <img src="/index/Facebook-Logo.png" alt="logo facebook" width="35" height="35">
+            </a>
+        </div>
+        <h4 class="gracias">Gracias Por Visitarme</h4>
+    </footer>
+</body>
+
+</html>
